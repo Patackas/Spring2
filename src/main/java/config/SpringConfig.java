@@ -29,7 +29,7 @@ public class SpringConfig {
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		return dataSource;
 	}
-	//test2
+	//test3
 	@Bean
 	public UserDao getUserDao() {
 		return new UserDaoImpl(getJdbcTemplate());
