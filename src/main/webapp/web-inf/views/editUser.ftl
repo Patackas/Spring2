@@ -5,7 +5,7 @@
 		<title>Esamo vartotojo redagavimas</title>
 	</head>
 	<body>
-		<form name="user" action="/spring_war/updateUser" method="post">
+		<form name="user" action="/updateUser" method="post">
 			<input placeholder="ID"     	type="text"   	name="id"  		value="${user.id}"><p>
 			<input placeholder="Vardas"     type="text"   	name="name"  	value="${user.name}"><p>
 			<input placeholder="El. pastas" type="text"   	name="email" 	value="${user.email}"><p>

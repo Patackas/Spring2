@@ -12,9 +12,9 @@
             Vardas: 	${user.name}<br>
             El. pastas: ${user.email}<br>
             Metai: 		${user.age}<p>
-            <a href="/spring_war/users">Rodyti vartotojus</a>
+            <a href="/users">Rodyti vartotojus</a>
         <#else>		
-			<form name="user" action="/spring_war/addUser" 	method="post">
+			<form name="user" action="/addUser" 	method="post">
 				Vardas:<br>
 				<@spring.formInput "user.name"/>
                 <@spring.showErrors "<br>"/><p>

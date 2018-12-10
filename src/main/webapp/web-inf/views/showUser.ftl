@@ -28,6 +28,6 @@
 			</table>
 		</div>
 		<br>
-		<a type="button" href="/spring_war/users" class="button">Atgal</a>
+		<a type="button" href="/users" class="button">Atgal</a>
 	</body>
 </html>
